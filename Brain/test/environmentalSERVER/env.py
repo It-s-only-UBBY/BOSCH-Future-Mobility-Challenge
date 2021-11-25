@@ -26,9 +26,9 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 
-from serverconfig import ServerConfig
-from carclientserver import CarClientServerThread
-from serverbeacon import ServerBeaconThread
+from ServerConfig import ServerConfig
+from CarClientServer import CarClientServerThread
+from ServerBeacon import ServerBeaconThread
 from data_saver import DataSaver
 
 import logging

@@ -29,6 +29,7 @@
 from pynput import keyboard 
 from threading import Thread
 
+
 class KeyboardListenerThread(Thread):
 
     # ===================================== INIT =========================================

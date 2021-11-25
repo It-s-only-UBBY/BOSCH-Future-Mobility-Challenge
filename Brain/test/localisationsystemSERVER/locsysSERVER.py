@@ -26,11 +26,11 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 
-from carclientserver import CarClientServerThread
-from serverconfig import ServerConfig
-from serverbeacon import ServerBeaconThread
+from CarClientServer import CarClientServerThread
+from ServerConfig import ServerConfig
+from ServerBeacon import ServerBeaconThread
 
-from generatedata import GenerateData
+from GenerateData import GenerateData
 
 import logging
 import time

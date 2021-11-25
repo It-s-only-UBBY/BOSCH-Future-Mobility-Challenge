@@ -29,7 +29,7 @@
 # Module imports
 import time
 # Module required for getting semaphore broadcast messages
-import trafficlights
+import TrafficLights
 
 ## Method for running the listener example.
 #  @param none
@@ -41,7 +41,7 @@ def runListener():
     # Get time stamp when starting tester
     start_time = time.time()
     # Create listener object
-    Semaphores = trafficlights.trafficlights()
+    Semaphores = TrafficLights.trafficlights()
     # Start the listener
     Semaphores.start()
     # Wait until 60 seconds passed

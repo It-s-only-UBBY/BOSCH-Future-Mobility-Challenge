@@ -29,7 +29,7 @@
 # Module imports
 import time
 # Module required for getting semaphore broadcast messages
-import vehicletovehicle
+import VehicleToVehicle
 
 ## Method for running the listener example.
 #  @param none
@@ -38,7 +38,7 @@ def runListener():
     # Get time stamp when starting tester
     start_time = time.time()
     # Create listener object
-    vehicle = vehicletovehicle.vehicletovehicle()
+    vehicle = VehicleToVehicle.vehicletovehicle()
     # Start the listener
     vehicle.start()
 
