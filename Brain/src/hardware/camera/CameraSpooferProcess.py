@@ -32,7 +32,7 @@ import time
 
 from threading       import Thread
 
-from src.templates.workerprocess import WorkerProcess
+from src.templates.WorkerProcess import WorkerProcess
 
 class CameraSpooferProcess(WorkerProcess):
 

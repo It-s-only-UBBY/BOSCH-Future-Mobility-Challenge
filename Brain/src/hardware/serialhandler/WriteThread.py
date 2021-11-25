@@ -27,7 +27,7 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 
 from threading import Thread
-from src.hardware.serialhandler.messageconverter    import MessageConverter
+from src.hardware.serialhandler.MessageConverter    import MessageConverter
 
 class WriteThread(Thread):
     # ===================================== INIT =========================================

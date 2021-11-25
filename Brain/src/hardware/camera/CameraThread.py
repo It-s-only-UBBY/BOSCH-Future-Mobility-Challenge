@@ -30,7 +30,7 @@ import io
 import numpy as np
 import time
 
-from src.templates.threadwithstop import ThreadWithStop
+from src.templates.ThreadWithStop import ThreadWithStop
 
 #================================ CAMERA PROCESS =========================================
 class CameraThread(ThreadWithStop):

@@ -26,7 +26,7 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 
-from src.templates.threadwithstop import ThreadWithStop
+from src.templates.ThreadWithStop import ThreadWithStop
 
 class ReadThread(ThreadWithStop):
     def __init__(self,f_serialCon,f_logFile):

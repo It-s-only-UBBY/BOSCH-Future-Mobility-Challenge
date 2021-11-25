@@ -35,7 +35,7 @@ from threading import Thread
 
 import cv2
 
-from src.templates.workerprocess import WorkerProcess
+from src.templates.WorkerProcess import WorkerProcess
 
 class CameraStreamerProcess(WorkerProcess):
     # ===================================== INIT =========================================

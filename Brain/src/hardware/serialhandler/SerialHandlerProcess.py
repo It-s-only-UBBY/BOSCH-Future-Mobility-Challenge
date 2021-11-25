@@ -28,9 +28,9 @@
 
 import serial
 
-from src.templates.workerprocess            import WorkerProcess
-from src.hardware.serialhandler.filehandler import FileHandler
-from src.hardware.serialhandler.ReadThread  import ReadThread
+from src.templates.WorkerProcess import WorkerProcess
+from src.hardware.serialhandler.FileHandler import FileHandler
+from src.hardware.serialhandler.ReadThread import ReadThread
 from src.hardware.serialhandler.WriteThread import WriteThread
 
 
@@ -53,7 +53,7 @@ class SerialHandlerProcess(WorkerProcess):
         devFile = '/dev/ttyACM0'
         logFile = 'historyFile.txt'
         
-        # comm init       
+        # comm init
         self.serialCom = serial.Serial(devFile,256000,timeout=0.1)
         self.serialCom.flushInput()
         self.serialCom.flushOutput()

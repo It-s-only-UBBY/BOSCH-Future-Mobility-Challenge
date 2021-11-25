@@ -34,7 +34,7 @@ from multiprocessing import  Pipe
 
 from src.utils.remotecontrol.RcBrainThread              import RcBrainThread
 from src.utils.remotecontrol.KeyboardListenerThread     import KeyboardListenerThread
-from src.templates.workerprocess                        import WorkerProcess
+from src.templates.WorkerProcess                        import WorkerProcess
 
 class RemoteControlTransmitterProcess(Thread):
     # ===================================== INIT==========================================
